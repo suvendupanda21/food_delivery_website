@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#loginsec{
+    width: 100%;
+    height: 100%;
+    background: url(../sunset-1373171_1920.jpg)no-repeat center center/cover;
+    position:absolute;
+
+   
+}
+
+.maindiv{
+    text-align: center;
+    margin-top:200px;
+    background-color:transparent;
+    margin-left: 600px;
+    margin-right: 600px;
+    color: aliceblue;
+    padding: 40px;
+    border-radius:10px;
+    border: 1px solid white;
+    backdrop-filter: blur(3px);
+    padding: 80px 25px;
+
+}
+.loginhead{
+    margin-bottom: 30px;
+}
+.inputbox input{
+    position:relative;
+    width:100%;
+    outline: none;
+    
+    font-size: 16px;
+    color:aliceblue;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border:none;
+    border-bottom: 1px solid white;
+    background: transparent;
+
+}
+
+.inputtext{
+  float:left;
+  
+}
+.loginbtn{
+    padding:3px 8px;
+    font-size:14px;
+    background-color:rgb(16, 14, 16);
+    border-radius:5px;
+    border:1px solid rgb(139, 15, 161);
+    color:#fff;
+    
+}
+.loginbtn:hover{
+    box-shadow: 1px 1px 5px 1px rgb(113, 26, 207);
+    background-color: rgb(137, 16, 198);
+    transition: 1s;
+    cursor: pointer;
+}
+.forpsd{
+    margin:15px 0;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:160px;
+    cursor: pointer;
+    font-size:13px;
+}

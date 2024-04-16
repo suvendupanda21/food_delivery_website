@@ -1,0 +1,435 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+
+
+#logo img{
+    height:37px;
+    margin: 3px 6px;
+}
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;  
+}
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+
+#navbar ul li a{
+    position:relative;
+    color: rgb(250, 246, 254);
+    display: block;
+    padding: 1px 20px;
+   text-decoration: none;
+  
+}
+
+
+#navbar ul li a:hover { 
+  border-bottom: 2.5px solid blue;
+  color:#b7b4cc;
+  transition: 1s;
+  
+}
+.loginimg{
+    height:25px;
+    width: 25px;
+    margin-left:690px;
+    margin-top: 13px;
+
+}
+.redirection{
+    position:relative;
+    font-size:28px;
+    color:#fff;
+    text-decoration: none;
+    margin-top: 13px;
+}
+
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height:400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../home\ bagrnd.jpg') no-repeat center center/cover;
+    height:850px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:1;
+    backdrop-filter: blur(3px);
+    
+}
+
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+    color: cornflowerblue;
+    
+}
+
+
+
+.btn{
+    padding: 6px 20px;
+    background-color: rgb(2, 4, 8);
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    cursor:pointer;
+    border: 1px solid rgb(113, 26, 207);
+    transition:1s;
+}
+
+
+.btn:hover{
+    background:rgb(7, 9, 156);
+    color:aliceblue;
+    box-shadow: 2px 2px 18px 2px rgb(113, 26, 207);
+}
+iframe{
+     align-items: center;
+     justify-content: center;
+     margin-left: 800px;
+     height:200px;
+     width:400px;
+}
+
+
+/* Services Section */
+#services{
+    margin: 60px;
+    display: flex;
+}
+
+
+#services .box{ 
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+
+#services .box img{ 
+   height:75px;
+   margin: auto;
+   display: block;
+}
+
+
+#services .box p{
+    font-family: 'Bree Serif', serif;
+
+} 
+
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+
+/* Clients Section */
+#client-section{ 
+    position: relative;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 34px;
+}
+
+#clients img{
+    height: 80px;
+}
+#trending{
+    position:relative;
+    background-image: url(../trending.jpg);
+    width:1550px;
+    height:900px;
+    
+}
+#trendingmain{
+    display:flex;
+   
+}
+
+.trendinghead{
+    position:relative;
+    font-size:50px;
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:center;
+}
+.trdclr{
+    color:red;
+}
+.trendingsub1{
+    margin:70px;
+    height:150px;
+    width:600px;
+   
+}
+.trending2{
+    display:flex;
+   
+    font-size:70px;
+    color:rgb(255, 255, 255);
+}
+.trending3{
+    
+    font-size:70px;
+    color:rgb(175, 0, 0);
+}
+.trending4{
+    color:white;
+    font-size:34px;
+
+}
+.trending5{
+    color:white;
+    font-size:34px;
+   
+}
+.trendingsub2{
+    margin-top: 50px;
+   height:900px;
+   width:90px;
+   
+}
+
+
+.trendingsub2 img{
+    height:300px;
+    width:300px;
+    margin: 20px;
+    margin-left:220px;
+    
+}
+.trendingsub2 img:hover{
+    transform: scale(1.1);
+}
+
+.FOODMAIN{
+    height:1750px;
+}
+
+.foodhead{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 120px;
+    margin-top: 70px;
+}
+.foodheadspn{
+    color: #1f00d1;
+}
+ 
+.fooddiv1{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    height:380px;
+    margin-left:200px;
+    margin-right:50px;
+   
+}
+.fooddiv2{
+    margin:120px;
+    height: 100px;
+    width:180px;
+
+}
+.fooddiv2 img{
+    height: 250px;
+    width:300px;
+    position: relative;
+}
+.fooddiv2 img:hover{
+    box-shadow: 1px 1px 10px 2px rgb(56, 49, 49)
+
+}
+
+.food1h{
+    width:200px;
+
+}
+.fooddiv3{
+    align-items: center;
+    display: flex;
+    
+    
+}
+.food1p{
+    font-size:25px;
+}
+.foodbtn{
+    margin-left:190px;
+    background-color: #e7723b;
+    padding: 1px 6px ;
+    border-radius:6px;
+    font-size:17px;
+    cursor: pointer;
+}
+.foodbtn:hover{
+    box-shadow: .5px .5px 5px 2px rgb(183, 175, 193)
+    
+}
+
+
+
+/* Contact Section */
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    background: url('../contact.\ us.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 9px;
+    font-size: 1rem;
+    background-color:rgb(rgb(246, 246, 246), green, blue)
+} 
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+   font-size: 1rem;
+   font-family: 'Bree Serif', serif;
+
+}
+.button{
+       color:azure;
+        margin-left:280px;
+        margin-top: 20px;
+        font-size: 1rem;
+        border-radius: 5px;
+        padding:3px 6px;
+        background-color:rgb(2, 5, 9);
+        transition: 1s;
+        border: 1px solid rgb(113, 26, 207);
+ }
+.button:hover{
+        background:rgb(7, 9, 156);
+        box-shadow: 1px 1px 5px 1px rgb(113, 26, 207);
+        
+        
+    }
+.h-primarybottom{
+    color:black;
+    font-size: 60px;
+    margin-left:620px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.support{
+    margin:20px 250px;
+    font-size:20px;
+    
+    color:#3e3c49;
+
+}
+.center{
+    text-align: center;
+}
+footer{
+    background: black;
+    color: white;
+    padding:5px 20px;
+    
+}
+
+
+
+
+
+
+    
+
+
